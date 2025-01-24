@@ -7,7 +7,7 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-# Function for multiplication
+# Function for multiplication (pls remove the multiplication of the main code)
 def multiply(a, b):
     return a * b
 
