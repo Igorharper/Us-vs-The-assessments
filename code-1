@@ -14,6 +14,13 @@ def divide(a, b):
     else:
         return "Division by zero is not allowed!"
 
+# Function for square root
+def square_root(a):
+    if a >= 0:
+        return math.sqrt(a)
+    else:
+        return "Square root of a negative number is not defined in real numbers!"
+
 # Main program
 print("Basic Arithmetic Operations")
 num1 = float(input("Enter the first number: "))
@@ -23,3 +30,5 @@ print("\nResults:")
 print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Square Root of {num1}: {square_root(num1)}")
+print(f"Square Root of {num2}: {square_root(num2)}")
