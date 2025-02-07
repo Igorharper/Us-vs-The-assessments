@@ -14,6 +14,8 @@ def divide(a, b):
     else:
         return "Division by zero is not allowed!"
 
+(add the square root here)
+
 # Main program
 print("Basic Arithmetic Operations")
 num1 = float(input("Enter the first number: "))
