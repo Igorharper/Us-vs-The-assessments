@@ -4,7 +4,7 @@ def add(a, b):
     return a + b
 
 
-you can creat or edit anything !!
+you can creat or edit anything !! (pls Juan could remove this and re-organize our code) 
 
 
 # Function for subtraction
